@@ -1,0 +1,23 @@
+{
+  "name": "weekly-report",
+  "version": "1.0.0",
+  "description": "weekly work report",
+  "main": "index.js",
+  "repository": "git@personal.github.com:HansenK/weekly-report.git",
+  "author": "Thiago Hansen Klein <thiagohansenklein@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "clipboardy": "^3.0.0",
+    "date-fns": "^2.27.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
